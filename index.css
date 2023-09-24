@@ -1,0 +1,130 @@
+* {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #e2aa44;
+}
+
+body {
+	background-image: url('img/background.svg');
+	background-size: cover;
+}
+
+.form-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;  
+}
+
+#container {
+	z-index: -1;
+}
+
+.container {
+	height: 30px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#info-container {
+	height: 100%; 
+	z-index: 999;
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	position: relative;
+}
+
+#titulo {
+	font-size: 35px;
+}
+
+#subtitulo {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+#check{
+    display: inline-block;
+}
+
+input, select, textarea, button {
+    font-size: 1em;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.campo {
+	margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #e2aa44;
+    display: block;
+}
+
+.container-form .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+	border-radius: 10px;
+	color: #e2aa44;
+	background: #000000;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #000000;
+}
+
+.botao {
+    font-size: 1.5em;
+    background: #000000;
+    border: 0;
+    margin-bottom: 1em;
+    color: #e2aa44;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    position: absolute;
+	border-radius: 10px;
+    
+}
+
+.botao:hover {
+	color: #000000;
+	background: #e2aa44;
+}
+
+@media(max-width: 1020px) {
+	#info-container ul li {
+		width: 45%;
+	}
+}
+
+@media(max-width: 784px) {
+	#info-container ul li {
+		width: 60%;
+		height: 5vh;
+		padding: 10px;
+	}
+}
+
+@media(max-width: 500px) {
+	#info-container ul li {
+		width: 75%;
+	}
+}
+
+
