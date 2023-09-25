@@ -23,7 +23,7 @@ Video aqui -->  **[Formulario-ByRafaBallerini](https://youtu.be/wwqOJ2o84S4?si=O
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
 
-  <img src="img/form.png" width="100%" alt="exemplo" ><img src="img/form2.png" width="50%" alt="exemplo">
+  <img src="img/form2.png" width="50%" alt="exemplo">
 
   
   
