@@ -1,8 +1,8 @@
 
 <h1 align="center" id="project_name">
-  <br /><br />
-  Formulário para Devs
   <br />
+  Formulário para Devs
+  <br /><br />
   <img src="img/form.png" alt="Logo" height="100%" width="100%">
   <br />
 </h1>
