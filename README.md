@@ -1,9 +1,9 @@
 
 <h1 align="center" id="project_name">
   <br />
-  <img src="img/form.png" alt="Logo" height="100%" width="100%">
-  <br />
   Formulário para Devs
+  <br />
+  <img src="img/form.png" alt="Logo" height="100%" width="100%">
   <br />
 </h1>
 
@@ -24,8 +24,6 @@ Video aqui -->  **[Formulario-ByRafaBallerini](https://youtu.be/wwqOJ2o84S4?si=O
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
 
   <img src="img/form2.png" width="50%" alt="exemplo">
-
-  
   
 </p>
 
@@ -42,6 +40,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 **Utilitários**
 
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Hospedagem: **[GitHub Pages](https://pages.github.com/)**
 - Fontes: **font-family: Georgia, 'Times New Roman', Times, serif;**
 
 
